@@ -4,10 +4,6 @@ title: Gallery
 image: /img/whatsapp-image-2019-01-24-at-13.16.23.jpeg
 heading: What I've done
 description: Lorem Ipsum Dolor Sit Amet
-intro:
-  blurbs: []
-  heading: Gallery
-  description: ''
 main:
   heading: 'My Gallery '
   description: |+
@@ -30,4 +26,3 @@ pricing:
   description: ''
   plans: []
 ---
-
