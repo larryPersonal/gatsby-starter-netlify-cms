@@ -12,8 +12,7 @@ export const GalleryPageTemplate = ({
   title,
   heading,
   description,
-  main,
-  testimonials,
+  main
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -80,7 +79,7 @@ export const GalleryPageTemplate = ({
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
