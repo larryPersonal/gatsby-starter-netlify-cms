@@ -7,7 +7,6 @@ description: Lorem Ipsum Dolor Sit Amet
 main:
   heading: 'My Gallery '
   description: |+
-
   image1:
     alt: ''
     image: /img/whatsapp-image-2019-01-24-at-13.16.23.jpeg
@@ -17,12 +16,12 @@ main:
   image3:
     alt: ''
     image: /img/whatsapp-image-2019-01-24-at-13.17.00.jpeg
-testimonials:
-  - author: why huh
-    quote: why is a testimonial required
+  image4:
+      alt: ''
+      image: /img/whatsapp-image-2019-01-24-at-13.17.00.jpeg
+  image5:
+      alt: ''
+      image: /img/whatsapp-image-2019-01-24-at-13.17.00.jpeg
+
 full_image: /img/whatsapp-image-2019-01-24-at-13.16.23.jpeg
-pricing:
-  heading: ''
-  description: ''
-  plans: []
 ---

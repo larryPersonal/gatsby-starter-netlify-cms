@@ -99,10 +99,14 @@ GalleryPageTemplate.propTypes = {
     image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image4: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image5: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image6: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+
   }),
 }
 
-const ProductPage = ({ data }) => {
+const GalleryPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
@@ -118,7 +122,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+GalleryPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -126,10 +130,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default GalleryPage
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const galleryPageQuery = graphql`
+  query GalleryPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
@@ -175,6 +179,38 @@ export const productPageQuery = graphql`
               }
             }
           }
+
+          image4 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image5 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image6 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+
         }
       }
     }
