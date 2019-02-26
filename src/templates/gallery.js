@@ -77,6 +77,23 @@ export const GalleryPageTemplate = ({
                       <PreviewCompatibleImage imageInfo={main.image3} />
                     </article>
                   </div>
+                  <div className="tile is-parent">
+                    <article className="tile is-child">
+                      <PreviewCompatibleImage imageInfo={main.image4} />
+                    </article>
+                  </div>
+                  <div className="tile is-parent">
+                    <article className="tile is-child">
+                      <PreviewCompatibleImage imageInfo={main.image5} />
+                    </article>
+                  </div>
+                  <div className="tile is-parent">
+                    <article className="tile is-child">
+                      <PreviewCompatibleImage imageInfo={main.image6} />
+                    </article>
+                  </div>
+
+
                 </div>
               </div>
 
@@ -102,7 +119,6 @@ GalleryPageTemplate.propTypes = {
     image4: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image5: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image6: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-
   }),
 }
 
@@ -179,7 +195,6 @@ export const galleryPageQuery = graphql`
               }
             }
           }
-
           image4 {
             alt
             image {
