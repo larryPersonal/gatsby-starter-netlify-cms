@@ -19,15 +19,6 @@ main:
   image3:
     alt: ''
     image: /img/whatsapp-image-2019-01-24-at-13.17.00.jpeg
-    image4:
-      alt: ''
-      image: /img/whatsapp-image-2019-01-24-at-13.17.00.jpeg
-      image5:
-        alt: ''
-        image: /img/whatsapp-image-2019-01-24-at-13.17.00.jpeg
-        image6:
-          alt: ''
-          image: /img/whatsapp-image-2019-01-24-at-13.17.00.jpeg
-
 full_image: /img/whatsapp-image-2019-01-24-at-13.16.23.jpeg
 ---
+
