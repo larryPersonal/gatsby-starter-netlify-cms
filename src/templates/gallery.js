@@ -215,6 +215,29 @@ export const galleryPageQuery = graphql`
               }
             }
           }
+<<<<<<< HEAD
+=======
+          image4 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image5 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+>>>>>>> e87eebdd5ca8f12e0965107a9a6e28418c0a1130
           image6 {
             alt
             image {
